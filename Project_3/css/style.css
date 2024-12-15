@@ -1,0 +1,55 @@
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    margin: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main{
+    width: 50%;
+}
+
+.car_table{
+    width: 100%;
+    border: 1px solid rgb(0,0,0);
+    border-spacing: 0.2em;
+    box-sizing: border-box;
+}
+
+.first_row,
+.second_row{
+    font-size: 1em;
+    font-weight: bold;
+}
+
+th,
+td{
+    border: 1px solid rgb(0,0,0);
+    
+}
+
+.third_row td:not(.quashqai),
+.fourth_row td,
+.fifth_row td:not(.xtrail),
+.sixth_row td{
+
+    font-weight: 100;
+    padding-left: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.second_row td{
+    text-align: center;
+    border: 1px solid rgb(0,0,0);
+}
+
+.quashqai,
+.xtrail{
+    text-align: center;
+    vertical-align: top;
+    padding-top: 0.5em;
+}
