@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Крутая форма</title>
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+    </head>
+    <body>
+        <main id="main">
+            
+            <form action="" method="POST" class="form_example">
+                <label for="form_example" class="form_label">Обратная связь</label>
+                <label for="issue_theme">Тема обращения</label>
+                <select name="issue_theme" class="issue_theme_select">
+                    <option value="">Выберите вариант</option>
+                    <option value="option_1">Вариант первый</option>
+                    <option value="option_2">Вариант второй</option>
+                    <option value="option_3">Вариант третий</option>
+                    <option value="option_4">Вариант четвертый</option>
+                    <option value="option_5">Вариант пятый</option>
+                    
+                </select>
+                <label for="name">Ваше имя</label>
+                <input type="text" name="name" required/>
+                <label for="email">Ваш email</label>
+                <input type="email" name="email" required/>
+                <label for="issue_message">Сообщение</label>
+                <textarea name="issue_message" required rows="5"></textarea>
+                <button type="submit" class="form_example_submit_btn">Отправить</button>
+
+            </form>
+        </main>
+
+    </body>
+</html>
