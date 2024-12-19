@@ -1,0 +1,34 @@
+@font-face{
+    font-family: 'Montserrat-Black';
+    src: ("../fonts/montserrat/Montserrat-Black.ttf");
+}
+
+@font-face{
+    font-family: 'Montserrat-Bold';
+    src: ("../fonts/montserrat/Montserrat-Bold.ttf");
+}
+
+@font-face{
+    font-family: 'Montserrat-Medium';
+    src: ("../fonts/montserrat/Montserrat-Medium.ttf");
+}
+
+@font-face{
+    font-family: 'Montserrat-ExtraBold';
+    src: ("../fonts/montserrat/Montserrat-ExtraBold.ttf");
+}
+
+@font-face{
+    font-family: 'Montserrat-Regular';
+    src: ("../fonts/montserrat/Montserrat-Regular.ttf");
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    font-family: 'Montserrat-Regular', 'Arial', sans-serif;
+}
